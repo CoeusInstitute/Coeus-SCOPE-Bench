@@ -10,7 +10,7 @@ SCOPE-Bench focuses on three under-measured capabilities:
 
 ## Repository Boundary
 
-This is the public-facing publication and results repository. It is intentionally separate from the private benchmark operations repository, `CoeusInstitute/SCOPE-Benchmark`, which contains the harness, scoring implementation, operational pipeline, and private methodology assets.
+This is the public-facing publication and results repository. It is intentionally separate from the private benchmark operations repository, which contains the harness, scoring implementation, operational pipeline, and private methodology assets.
 
 This repository is for:
 
