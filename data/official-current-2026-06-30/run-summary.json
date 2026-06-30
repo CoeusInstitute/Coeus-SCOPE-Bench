@@ -1,0 +1,53 @@
+{
+  "run_id": "9ff7a720-826a-4d34-9fbf-ca21b7a70b39",
+  "run_name": "official-current-2026-06-30",
+  "status": "completed",
+  "benchmark_version": "official-current",
+  "item_set_version": "official-current",
+  "created_at": "2026-06-30T14:06:49.906733+00:00",
+  "started_at": "2026-06-30T14:07:04.558882+00:00",
+  "completed_at": "2026-06-30T15:41:55.819795+00:00",
+  "duration_ms": 5588351,
+  "duration_label": "1h 33m 8s",
+  "model_count": 28,
+  "item_count": 21,
+  "response_count": 588,
+  "expected_invocation_count": 588,
+  "official_ranking_metric": "combo_score",
+  "score_formula_version": "scope-score-v0.8.2",
+  "aggregate_formula_version": "scope-combo-v0.8.4",
+  "combo_score": 77.965071,
+  "overall": {
+    "count": 588,
+    "pass_rate": 0.6241496598639455,
+    "pass_count": 367,
+    "failure_category_counts": {
+      "pass": 367,
+      "incorrect": 210,
+      "provider_error": 11
+    },
+    "mean_test_score": 78.17073614965986,
+    "median_test_score": 85.0,
+    "min_test_score": 0.0,
+    "max_test_score": 100.0,
+    "stddev_test_score": 26.62650468065545,
+    "total_test_score": 45964.392856000006,
+    "total_scored_tokens": 1799116,
+    "total_tokens": 2430184,
+    "total_estimated_cost_usd": 4.151425641599998,
+    "total_duration_ms": 5308097,
+    "mean_duration_ms": 9027.375850340137
+  },
+  "notes": [
+    "Public result export contains aggregate, model projection, and item score fields only.",
+    "Raw provider responses, hidden verifier details, answer keys, and private operational internals are intentionally excluded.",
+    "Token, duration, cost, reliability, and relative efficiency fields are diagnostics only and do not modify combo_score."
+  ],
+  "source_tables": [
+    "benchmark_runs",
+    "aggregate_reports",
+    "model_run_results",
+    "item_scores",
+    "model_invocations"
+  ]
+}

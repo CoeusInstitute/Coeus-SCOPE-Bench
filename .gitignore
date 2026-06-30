@@ -1,0 +1,9 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Local extraction or scratch output
+.scratch/
+*.local
