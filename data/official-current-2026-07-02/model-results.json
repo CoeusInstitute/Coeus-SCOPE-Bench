@@ -1,0 +1,21 @@
+[
+  {
+    "rank": 1,
+    "model_id": "anthropic/claude-fable-5",
+    "provider": "anthropic",
+    "model": "claude-fable-5",
+    "combo_score": 84.669465,
+    "sophistication_score": 82.430556,
+    "objective_inference_score": 84.066265,
+    "correlation_score": 87.511574,
+    "item_count": 21,
+    "invocation_count": 21,
+    "pass_count": 12,
+    "failure_count": 9,
+    "pass_rate": 0.5714285714285714,
+    "total_scored_tokens": 27319,
+    "total_tokens": 32853,
+    "total_estimated_cost_usd": 1.25249,
+    "total_duration_ms": 319726
+  }
+]

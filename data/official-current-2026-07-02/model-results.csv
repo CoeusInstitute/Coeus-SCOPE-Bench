@@ -1,0 +1,2 @@
+rank,model_id,provider,model,combo_score,sophistication_score,objective_inference_score,correlation_score,item_count,invocation_count,pass_count,failure_count,pass_rate,total_scored_tokens,total_tokens,total_estimated_cost_usd,total_duration_ms
+1,anthropic/claude-fable-5,anthropic,claude-fable-5,84.669465,82.430556,84.066265,87.511574,21,21,12,9,0.5714285714285714,27319,32853,1.25249,319726

@@ -23,6 +23,9 @@ It is separate from the private benchmark operations repository `CoeusInstitute/
 
 - Store each run under `data/<run-name-or-id>/`.
 - Include a `README.md` for each run explaining source, formulas, files, and diagnostic fields.
+- Treat `data/all-model-results.csv` and `data/all-model-results.json` as the canonical all-model datasets. Regenerate both from every published run-level `model-results.csv` whenever any model score is added or corrected.
+- Keep one master row per `(run_id, model_id)`; never overwrite historical rows solely because a model ID appears in a newer run.
+- Verify the master row count equals the sum of model rows across all published run packages.
 - Prefer CSV for spreadsheet use and JSON for agents/programmatic loading.
 - State clearly that `combo_score` is the official ranking metric and token/cost efficiency fields are diagnostics only.
 

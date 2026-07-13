@@ -1,0 +1,24 @@
+[
+  {
+    "ranking_type": "token",
+    "rank": 1,
+    "model_id": "anthropic/claude-fable-5",
+    "combo_score": 84.669465,
+    "relative_efficiency_score": 100.0,
+    "scope_efficiency_index": 3.099289,
+    "cost_adjusted_scope_score": null,
+    "scored_tokens_per_1k": 27.319,
+    "estimated_run_cost_usd": null
+  },
+  {
+    "ranking_type": "cost",
+    "rank": 1,
+    "model_id": "anthropic/claude-fable-5",
+    "combo_score": 84.669465,
+    "relative_efficiency_score": 100.0,
+    "scope_efficiency_index": null,
+    "cost_adjusted_scope_score": 67.600911,
+    "scored_tokens_per_1k": null,
+    "estimated_run_cost_usd": 1.25249
+  }
+]

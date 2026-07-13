@@ -30,6 +30,14 @@ The current published result set is:
 
 - [official-current-2026-07-13](data/official-current-2026-07-13/README.md)
 
+### Canonical all-model dataset
+
+- [Download all published model results as CSV](data/all-model-results.csv)
+- [Download all published model results as JSON](data/all-model-results.json)
+- [Master dataset documentation](data/MASTER_DATASET.md)
+
+The master dataset is regenerated whenever new public model scores are added. Each row represents one `(run_id, model_id)` result so historical evaluations remain traceable.
+
 Key files:
 
 - [Run summary JSON](data/official-current-2026-07-13/run-summary.json)
@@ -53,6 +61,7 @@ Key files:
 
 ### Earlier public packages
 
+- [official-current-2026-07-02](data/official-current-2026-07-02/README.md) — Claude Fable 5 public calibration package
 - [official-current-2026-06-30](data/official-current-2026-06-30/README.md) — 28-model public calibration package
 
 ## Scoring Note
