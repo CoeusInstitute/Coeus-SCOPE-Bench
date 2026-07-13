@@ -17,6 +17,16 @@ This repository publishes public SCOPE-Bench materials for external reference an
 
 ## Current Result Set
 
-The current public data package is `data/official-current-2026-06-30/`, generated from the completed live SCOPE-Bench database run `9ff7a720-826a-4d34-9fbf-ca21b7a70b39`.
+The current public data package is `data/official-current-2026-07-13/`, generated from the completed live SCOPE-Bench database run `c1ad6939-5850-4dbd-92d2-f707ec67c49c`.
+
+That package covers five models:
+
+- `openai/gpt-5.6-terra`
+- `x-ai/grok-4.5`
+- `openai/gpt-5.6-luna`
+- `openai/gpt-5.6-sol`
+- `anthropic/claude-sonnet-5`
+
+The earlier 28-model package remains available at `data/official-current-2026-06-30/`.
 
 The official ranking metric is `combo_score`. Efficiency metrics are diagnostic and should not be treated as capability scores.

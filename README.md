@@ -28,18 +28,32 @@ It does not contain hidden verifier mechanics, private seeds, service credential
 
 The current published result set is:
 
-- [official-current-2026-06-30](data/official-current-2026-06-30/README.md)
+- [official-current-2026-07-13](data/official-current-2026-07-13/README.md)
 
 Key files:
 
-- [Run summary JSON](data/official-current-2026-06-30/run-summary.json)
-- [Model results CSV](data/official-current-2026-06-30/model-results.csv)
-- [Model results JSON](data/official-current-2026-06-30/model-results.json)
-- [Item scores CSV](data/official-current-2026-06-30/item-scores.csv)
-- [Item scores JSONL](data/official-current-2026-06-30/item-scores.jsonl)
-- [Efficiency rankings CSV](data/official-current-2026-06-30/efficiency-rankings.csv)
-- [Efficiency rankings JSON](data/official-current-2026-06-30/efficiency-rankings.json)
-- [Data dictionary](data/official-current-2026-06-30/data-dictionary.md)
+- [Run summary JSON](data/official-current-2026-07-13/run-summary.json)
+- [Model results CSV](data/official-current-2026-07-13/model-results.csv)
+- [Model results JSON](data/official-current-2026-07-13/model-results.json)
+- [Item scores CSV](data/official-current-2026-07-13/item-scores.csv)
+- [Item scores JSONL](data/official-current-2026-07-13/item-scores.jsonl)
+- [Efficiency rankings CSV](data/official-current-2026-07-13/efficiency-rankings.csv)
+- [Efficiency rankings JSON](data/official-current-2026-07-13/efficiency-rankings.json)
+- [Data dictionary](data/official-current-2026-07-13/data-dictionary.md)
+
+### Models in the current package
+
+| Rank | Model | Combo |
+|---:|---|---:|
+| 1 | `openai/gpt-5.6-terra` | 86.805 |
+| 2 | `x-ai/grok-4.5` | 86.294 |
+| 3 | `openai/gpt-5.6-luna` | 84.195 |
+| 4 | `openai/gpt-5.6-sol` | 84.186 |
+| 5 | `anthropic/claude-sonnet-5` | 83.929 |
+
+### Earlier public packages
+
+- [official-current-2026-06-30](data/official-current-2026-06-30/README.md) — 28-model public calibration package
 
 ## Scoring Note
 

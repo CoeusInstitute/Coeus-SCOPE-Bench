@@ -9,6 +9,7 @@ It is separate from the private benchmark operations repository `CoeusInstitute/
 
 - Publish the public white paper and other public methodology documents.
 - Publish structured public result data for completed SCOPE-Bench runs.
+- Keep each completed public run under its own `data/<run-name>/` folder and update the root README when a newer package becomes current.
 - Provide data analysts, researchers, and agents with stable files they can cite, inspect, and load.
 
 ## Boundary Rules
