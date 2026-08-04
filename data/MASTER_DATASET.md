@@ -2,6 +2,7 @@
 
 The canonical all-model download is:
 
+- [`SCOPE-Bench_All_Model_Scores.xlsx`](SCOPE-Bench_All_Model_Scores.xlsx) — organized Excel workbook with all four scores, estimated cost, and run traceability
 - [`all-model-results.csv`](all-model-results.csv) — spreadsheet/data-tool format
 - [`all-model-results.json`](all-model-results.json) — agent/programmatic format
 
