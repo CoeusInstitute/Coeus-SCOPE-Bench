@@ -17,16 +17,20 @@ This repository publishes public SCOPE-Bench materials for external reference an
 
 ## Current Result Set
 
-The current public data package is `data/official-current-2026-07-13/`, generated from the completed live SCOPE-Bench database run `c1ad6939-5850-4dbd-92d2-f707ec67c49c`.
+The current public data package is `data/official-current-2026-07-31/`, generated from the completed live SCOPE-Bench database run `76b10bcc-b876-48ae-9252-e9e19c0e4d87`.
 
-That package covers five models:
+That package covers eight models:
 
-- `openai/gpt-5.6-terra`
-- `x-ai/grok-4.5`
-- `openai/gpt-5.6-luna`
-- `openai/gpt-5.6-sol`
-- `anthropic/claude-sonnet-5`
+- `moonshotai/kimi-k3`
+- `anthropic/claude-opus-5`
+- `openai/gpt-5.4-nano`
+- `openai/gpt-5.6-luna-pro`
+- `google/gemini-3.5-flash-lite`
+- `nvidia/nemotron-3-super-120b-a12b`
+- `google/gemini-3.6-flash`
+- `tencent/hy3`
 
+The earlier five-model package remains available at `data/official-current-2026-07-13/`.
 The earlier 28-model package remains available at `data/official-current-2026-06-30/`.
 
 The July 2 Claude Fable 5 package is available at `data/official-current-2026-07-02/`.

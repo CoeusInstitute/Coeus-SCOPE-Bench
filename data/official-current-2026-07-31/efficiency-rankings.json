@@ -1,0 +1,178 @@
+[
+  {
+    "ranking_type": "token",
+    "rank": 1,
+    "model_id": "openai/gpt-5.4-nano",
+    "combo_score": 82.430277,
+    "relative_efficiency_score": 100.0,
+    "scope_efficiency_index": 26.470866,
+    "cost_adjusted_scope_score": null,
+    "scored_tokens_per_1k": 3.114,
+    "estimated_run_cost_usd": null
+  },
+  {
+    "ranking_type": "token",
+    "rank": 2,
+    "model_id": "anthropic/claude-opus-5",
+    "combo_score": 89.348319,
+    "relative_efficiency_score": 17.746295,
+    "scope_efficiency_index": 4.697598,
+    "cost_adjusted_scope_score": null,
+    "scored_tokens_per_1k": 19.02,
+    "estimated_run_cost_usd": null
+  },
+  {
+    "ranking_type": "token",
+    "rank": 3,
+    "model_id": "moonshotai/kimi-k3",
+    "combo_score": 92.739476,
+    "relative_efficiency_score": 17.654983,
+    "scope_efficiency_index": 4.673427,
+    "cost_adjusted_scope_score": null,
+    "scored_tokens_per_1k": 19.844,
+    "estimated_run_cost_usd": null
+  },
+  {
+    "ranking_type": "token",
+    "rank": 4,
+    "model_id": "nvidia/nemotron-3-super-120b-a12b",
+    "combo_score": 76.842993,
+    "relative_efficiency_score": 11.027682,
+    "scope_efficiency_index": 2.919123,
+    "cost_adjusted_scope_score": null,
+    "scored_tokens_per_1k": 26.324,
+    "estimated_run_cost_usd": null
+  },
+  {
+    "ranking_type": "token",
+    "rank": 5,
+    "model_id": "google/gemini-3.5-flash-lite",
+    "combo_score": 78.306186,
+    "relative_efficiency_score": 7.574067,
+    "scope_efficiency_index": 2.004921,
+    "cost_adjusted_scope_score": null,
+    "scored_tokens_per_1k": 39.057,
+    "estimated_run_cost_usd": null
+  },
+  {
+    "ranking_type": "token",
+    "rank": 6,
+    "model_id": "google/gemini-3.6-flash",
+    "combo_score": 76.808821,
+    "relative_efficiency_score": 6.55263,
+    "scope_efficiency_index": 1.734538,
+    "cost_adjusted_scope_score": null,
+    "scored_tokens_per_1k": 44.282,
+    "estimated_run_cost_usd": null
+  },
+  {
+    "ranking_type": "token",
+    "rank": 7,
+    "model_id": "tencent/hy3",
+    "combo_score": 72.413971,
+    "relative_efficiency_score": 5.372265,
+    "scope_efficiency_index": 1.422085,
+    "cost_adjusted_scope_score": null,
+    "scored_tokens_per_1k": 50.921,
+    "estimated_run_cost_usd": null
+  },
+  {
+    "ranking_type": "token",
+    "rank": 8,
+    "model_id": "openai/gpt-5.6-luna-pro",
+    "combo_score": 82.13967,
+    "relative_efficiency_score": 2.03438,
+    "scope_efficiency_index": 0.538518,
+    "cost_adjusted_scope_score": null,
+    "scored_tokens_per_1k": 152.529,
+    "estimated_run_cost_usd": null
+  },
+  {
+    "ranking_type": "cost",
+    "rank": 1,
+    "model_id": "openai/gpt-5.4-nano",
+    "combo_score": 82.430277,
+    "relative_efficiency_score": 100.0,
+    "scope_efficiency_index": null,
+    "cost_adjusted_scope_score": 16180.883863,
+    "scored_tokens_per_1k": null,
+    "estimated_run_cost_usd": 0.0050943
+  },
+  {
+    "ranking_type": "cost",
+    "rank": 2,
+    "model_id": "nvidia/nemotron-3-super-120b-a12b",
+    "combo_score": 76.842993,
+    "relative_efficiency_score": 33.410006,
+    "scope_efficiency_index": null,
+    "cost_adjusted_scope_score": 5406.034282,
+    "scored_tokens_per_1k": null,
+    "estimated_run_cost_usd": 0.0142143
+  },
+  {
+    "ranking_type": "cost",
+    "rank": 3,
+    "model_id": "tencent/hy3",
+    "combo_score": 72.413971,
+    "relative_efficiency_score": 21.634965,
+    "scope_efficiency_index": null,
+    "cost_adjusted_scope_score": 3500.728567,
+    "scored_tokens_per_1k": null,
+    "estimated_run_cost_usd": 0.0206854
+  },
+  {
+    "ranking_type": "cost",
+    "rank": 4,
+    "model_id": "google/gemini-3.5-flash-lite",
+    "combo_score": 78.306186,
+    "relative_efficiency_score": 9.021794,
+    "scope_efficiency_index": null,
+    "cost_adjusted_scope_score": 1459.806055,
+    "scored_tokens_per_1k": null,
+    "estimated_run_cost_usd": 0.0536415
+  },
+  {
+    "ranking_type": "cost",
+    "rank": 5,
+    "model_id": "openai/gpt-5.6-luna-pro",
+    "combo_score": 82.13967,
+    "relative_efficiency_score": 3.888575,
+    "scope_efficiency_index": null,
+    "cost_adjusted_scope_score": 629.205789,
+    "scored_tokens_per_1k": null,
+    "estimated_run_cost_usd": 0.130545
+  },
+  {
+    "ranking_type": "cost",
+    "rank": 6,
+    "model_id": "google/gemini-3.6-flash",
+    "combo_score": 76.808821,
+    "relative_efficiency_score": 2.572106,
+    "scope_efficiency_index": null,
+    "cost_adjusted_scope_score": 416.189544,
+    "scored_tokens_per_1k": null,
+    "estimated_run_cost_usd": 0.1845525
+  },
+  {
+    "ranking_type": "cost",
+    "rank": 7,
+    "model_id": "moonshotai/kimi-k3",
+    "combo_score": 92.739476,
+    "relative_efficiency_score": 2.310492,
+    "scope_efficiency_index": null,
+    "cost_adjusted_scope_score": 373.857997,
+    "scored_tokens_per_1k": null,
+    "estimated_run_cost_usd": 0.2480607
+  },
+  {
+    "ranking_type": "cost",
+    "rank": 8,
+    "model_id": "anthropic/claude-opus-5",
+    "combo_score": 89.348319,
+    "relative_efficiency_score": 1.20671,
+    "scope_efficiency_index": null,
+    "cost_adjusted_scope_score": 195.256328,
+    "scored_tokens_per_1k": null,
+    "estimated_run_cost_usd": 0.457595
+  }
+]

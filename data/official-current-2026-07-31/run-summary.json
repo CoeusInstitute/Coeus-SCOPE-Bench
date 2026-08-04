@@ -1,0 +1,62 @@
+{
+  "run_id": "76b10bcc-b876-48ae-9252-e9e19c0e4d87",
+  "run_name": "official-current-2026-07-31",
+  "status": "completed",
+  "benchmark_version": "official-current",
+  "item_set_version": "official-current",
+  "created_at": "2026-07-31T18:06:51.247149+00:00",
+  "started_at": "2026-07-31T18:07:07.089482+00:00",
+  "completed_at": "2026-07-31T18:31:37.408819+00:00",
+  "duration_ms": 1454756,
+  "duration_label": "24m 15s",
+  "model_count": 8,
+  "item_count": 21,
+  "response_count": 168,
+  "expected_invocation_count": 168,
+  "official_ranking_metric": "combo_score",
+  "score_formula_version": "scope-score-v0.8.2",
+  "aggregate_formula_version": "scope-combo-v0.8.4",
+  "combo_score": 81.378714,
+  "models": [
+    "anthropic/claude-opus-5",
+    "google/gemini-3.5-flash-lite",
+    "google/gemini-3.6-flash",
+    "moonshotai/kimi-k3",
+    "nvidia/nemotron-3-super-120b-a12b",
+    "openai/gpt-5.4-nano",
+    "openai/gpt-5.6-luna-pro",
+    "tencent/hy3"
+  ],
+  "overall": {
+    "count": 168,
+    "pass_rate": 0.6547619047619048,
+    "pass_count": 110,
+    "failure_category_counts": {
+      "pass": 110,
+      "incorrect": 58
+    },
+    "mean_test_score": 81.89115648214286,
+    "median_test_score": 85.0,
+    "min_test_score": 5.0,
+    "max_test_score": 100.0,
+    "stddev_test_score": 21.921455850543506,
+    "total_test_score": 13757.714289000001,
+    "total_scored_tokens": 355091,
+    "total_tokens": 341056,
+    "total_estimated_cost_usd": 1.1143887000000001,
+    "total_duration_ms": 1409222,
+    "mean_duration_ms": 8388.22619047619
+  },
+  "notes": [
+    "Public result export contains aggregate, model projection, and item score fields only.",
+    "Raw provider responses, hidden verifier details, answer keys, and private operational internals are intentionally excluded.",
+    "Token, duration, cost, reliability, and relative efficiency fields are diagnostics only and do not modify combo_score."
+  ],
+  "source_tables": [
+    "benchmark_runs",
+    "aggregate_reports",
+    "model_run_results",
+    "item_scores",
+    "model_invocations"
+  ]
+}

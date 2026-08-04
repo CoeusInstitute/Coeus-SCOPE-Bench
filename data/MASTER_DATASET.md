@@ -20,11 +20,12 @@ Whenever a new public model score package is added:
 
 ## Included Packages
 
+- `official-current-2026-07-31` — 8 model rows
 - `official-current-2026-06-30` — 28 model rows
 - `official-current-2026-07-02` — 1 model row (`anthropic/claude-fable-5`)
 - `official-current-2026-07-13` — 5 model rows
 
-Current total: **34 model-result rows across 3 runs**.
+Current total: **42 model-result rows across 4 runs**.
 
 ## Important Interpretation
 

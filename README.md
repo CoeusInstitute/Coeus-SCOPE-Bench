@@ -28,7 +28,7 @@ It does not contain hidden verifier mechanics, private seeds, service credential
 
 The current published result set is:
 
-- [official-current-2026-07-13](data/official-current-2026-07-13/README.md)
+- [official-current-2026-07-31](data/official-current-2026-07-31/README.md)
 
 ### Canonical all-model dataset
 
@@ -40,27 +40,30 @@ The master dataset is regenerated whenever new public model scores are added. Ea
 
 Key files:
 
-- [Run summary JSON](data/official-current-2026-07-13/run-summary.json)
-- [Model results CSV](data/official-current-2026-07-13/model-results.csv)
-- [Model results JSON](data/official-current-2026-07-13/model-results.json)
-- [Item scores CSV](data/official-current-2026-07-13/item-scores.csv)
-- [Item scores JSONL](data/official-current-2026-07-13/item-scores.jsonl)
-- [Efficiency rankings CSV](data/official-current-2026-07-13/efficiency-rankings.csv)
-- [Efficiency rankings JSON](data/official-current-2026-07-13/efficiency-rankings.json)
-- [Data dictionary](data/official-current-2026-07-13/data-dictionary.md)
+- [Run summary JSON](data/official-current-2026-07-31/run-summary.json)
+- [Model results CSV](data/official-current-2026-07-31/model-results.csv)
+- [Model results JSON](data/official-current-2026-07-31/model-results.json)
+- [Item scores CSV](data/official-current-2026-07-31/item-scores.csv)
+- [Item scores JSONL](data/official-current-2026-07-31/item-scores.jsonl)
+- [Efficiency rankings CSV](data/official-current-2026-07-31/efficiency-rankings.csv)
+- [Efficiency rankings JSON](data/official-current-2026-07-31/efficiency-rankings.json)
 
 ### Models in the current package
 
 | Rank | Model | Combo |
 |---:|---|---:|
-| 1 | `openai/gpt-5.6-terra` | 86.805 |
-| 2 | `x-ai/grok-4.5` | 86.294 |
-| 3 | `openai/gpt-5.6-luna` | 84.195 |
-| 4 | `openai/gpt-5.6-sol` | 84.186 |
-| 5 | `anthropic/claude-sonnet-5` | 83.929 |
+| 1 | `moonshotai/kimi-k3` | 92.739 |
+| 2 | `anthropic/claude-opus-5` | 89.348 |
+| 3 | `openai/gpt-5.4-nano` | 82.430 |
+| 4 | `openai/gpt-5.6-luna-pro` | 82.140 |
+| 5 | `google/gemini-3.5-flash-lite` | 78.306 |
+| 6 | `nvidia/nemotron-3-super-120b-a12b` | 76.843 |
+| 7 | `google/gemini-3.6-flash` | 76.809 |
+| 8 | `tencent/hy3` | 72.414 |
 
 ### Earlier public packages
 
+- [official-current-2026-07-13](data/official-current-2026-07-13/README.md) — five-model public calibration package
 - [official-current-2026-07-02](data/official-current-2026-07-02/README.md) — Claude Fable 5 public calibration package
 - [official-current-2026-06-30](data/official-current-2026-06-30/README.md) — 28-model public calibration package
 
